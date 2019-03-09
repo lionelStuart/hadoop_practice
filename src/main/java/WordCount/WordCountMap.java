@@ -22,6 +22,7 @@ public class WordCountMap extends Mapper<LongWritable, Text, Text, IntWritable> 
         for(String word:words)
         {
             this.reduce_key.set(word);
+
             context.write(this.reduce_key, this.reduce_value);
         }
 
