@@ -6,4 +6,4 @@
 4. zookeeper 
     - test client api
     - dist server watcher client sample
-       
+5. thrift-hiveserver2 tests
